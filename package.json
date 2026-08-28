@@ -5,6 +5,14 @@
 	"type": "module",
 	"license": "MIT",
 	"author": "angel.cruz@wallbit.io",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/abr4xas/dnd-character-dl.git"
+	},
+	"homepage": "https://github.com/abr4xas/dnd-character-dl#readme",
+	"bugs": {
+		"url": "https://github.com/abr4xas/dnd-character-dl/issues"
+	},
 	"engines": {
 		"node": ">=18"
 	},
