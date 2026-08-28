@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# CLI output: downloaded characters.
+# Generated (and personal) data — regenerate with `node bin/cli.mjs <id>`.
+# Anchored to the repo root so they do not match src/sources/<platform>/.
+/dndbeyond/
+/nivel20/
+
+# Backups and temporary files
+*.bak
+*.bak-*
+*.log
+*.tmp
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Local tooling
+.claude/
+.vscode/
+.idea/
+
+# npm
+*.tgz
+npm-debug.log*
+.npm/
+
+# macOS
+.DS_Store

@@ -1,0 +1,2752 @@
+{
+  "printable_hash": {
+    "originals": {},
+    "info": {
+      "level": 1,
+      "level_desc": "Guerrero 1",
+      "proficiency_bonus": 2,
+      "size": "Mediano",
+      "hit_points": 14,
+      "id": 2087153,
+      "name": "Harbek Ironforge",
+      "status": "active",
+      "race_id": 12,
+      "race_name": "Enano",
+      "subrace_id": 40,
+      "subrace_name": "Enano de las colinas",
+      "race": "Enano de las colinas",
+      "player": "abr4xas",
+      "speed": 25,
+      "campaign_id": null,
+      "campaign": null,
+      "campaign_logo": null,
+      "image_url": "https://nivel20.com/images/4349611/original-332bac1f01ba498a91f81b2ac2aa3d973d3682cc.png?1779649948",
+      "spell_caster": false
+    },
+    "proficiency": {
+      "none": 0,
+      "proficient": 2,
+      "expertise": 4
+    },
+    "tags": [],
+    "tag_ids": [],
+    "race": {
+      "id": 12,
+      "name": "Enano",
+      "portrait_url": "https://nivel20.com/images/179/medium-61ed89a616a257f114abebae93427996cd6fddc7.JPG?1599240918",
+      "description": "Los enanos son conocidos por su habilidad en el arte de la guerra, su gran resistencia a los castigos, su conocimiento de los secretos de la tierra, su dedicación al trabajo y su capacidad para beber cerveza. Los enanos son gente poco dada a las risas o las bromas, y suelen mostrarse recelosos con los desconocidos; sin embargo, se comportan de forma generosa con los que se ganan su confianza."
+    },
+    "subrace": {
+      "id": 40,
+      "name": "Enano de las colinas",
+      "portrait_url": "https://nivel20.com/images/179/medium-61ed89a616a257f114abebae93427996cd6fddc7.JPG?1599240918",
+      "description": "Los enanos de las colinas tienen unos sentidos agudos, una gran intuición y una fortaleza increíble."
+    },
+    "selection_options": [],
+    "armor": {
+      "base_armor": 16,
+      "equipment_bonus": 2,
+      "modifiers_bonus": 0,
+      "ability_limit": 0,
+      "ability_bonus": 0,
+      "normal": 18,
+      "flat_footed": 18,
+      "touch": 16,
+      "modifiers": [],
+      "fixed_base": null,
+      "fixed_base_source": null
+    },
+    "initiative": {
+      "base": 0,
+      "base_source": "Destreza",
+      "modifiers": [],
+      "modifiers_bonus": 0,
+      "fixed_value": null,
+      "fixed_value_source": null,
+      "proficiency": null,
+      "proficiency_bonus": 0,
+      "total_value": 0,
+      "total": 0
+    },
+    "speed": {
+      "base": 25,
+      "base_source": "Velocidad base Enano de las colinas",
+      "modifiers": [],
+      "modifiers_bonus": 0,
+      "fixed_value": null,
+      "fixed_value_source": null,
+      "proficiency": null,
+      "proficiency_bonus": 0,
+      "total_value": 25,
+      "total": 25
+    },
+    "saving_throw": {
+      "fue": {
+        "base": 0,
+        "bonus": 0,
+        "total": 4,
+        "ability": "fue",
+        "ability_mod": 2,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "proficient",
+        "name": "Fuerza",
+        "short_name": "Fue",
+        "slug": "fue",
+        "ability_name": "Fuerza",
+        "ability_short_name": "Fue"
+      },
+      "des": {
+        "base": 0,
+        "bonus": 0,
+        "total": 0,
+        "ability": "des",
+        "ability_mod": 0,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Destreza",
+        "short_name": "Des",
+        "slug": "des",
+        "ability_name": "Destreza",
+        "ability_short_name": "Des"
+      },
+      "con": {
+        "base": 0,
+        "bonus": 0,
+        "total": 5,
+        "ability": "con",
+        "ability_mod": 3,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "proficient",
+        "name": "Constitución",
+        "short_name": "Con",
+        "slug": "con",
+        "ability_name": "Constitución",
+        "ability_short_name": "Con"
+      },
+      "int": {
+        "base": 0,
+        "bonus": 0,
+        "total": -1,
+        "ability": "int",
+        "ability_mod": -1,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Inteligencia",
+        "short_name": "Int",
+        "slug": "int",
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int"
+      },
+      "sab": {
+        "base": 0,
+        "bonus": 0,
+        "total": 2,
+        "ability": "sab",
+        "ability_mod": 2,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Sabiduría",
+        "short_name": "Sab",
+        "slug": "sab",
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab"
+      },
+      "car": {
+        "base": 0,
+        "bonus": 0,
+        "total": 0,
+        "ability": "car",
+        "ability_mod": 0,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Carisma",
+        "short_name": "Car",
+        "slug": "car",
+        "ability_name": "Carisma",
+        "ability_short_name": "Car"
+      }
+    },
+    "saving_throws": [
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": 4,
+        "ability": "fue",
+        "ability_mod": 2,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "proficient",
+        "name": "Fuerza",
+        "short_name": "Fue",
+        "slug": "fue",
+        "ability_name": "Fuerza",
+        "ability_short_name": "Fue"
+      },
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": 0,
+        "ability": "des",
+        "ability_mod": 0,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Destreza",
+        "short_name": "Des",
+        "slug": "des",
+        "ability_name": "Destreza",
+        "ability_short_name": "Des"
+      },
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": 5,
+        "ability": "con",
+        "ability_mod": 3,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "proficient",
+        "name": "Constitución",
+        "short_name": "Con",
+        "slug": "con",
+        "ability_name": "Constitución",
+        "ability_short_name": "Con"
+      },
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": -1,
+        "ability": "int",
+        "ability_mod": -1,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Inteligencia",
+        "short_name": "Int",
+        "slug": "int",
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int"
+      },
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": 2,
+        "ability": "sab",
+        "ability_mod": 2,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Sabiduría",
+        "short_name": "Sab",
+        "slug": "sab",
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab"
+      },
+      {
+        "base": 0,
+        "bonus": 0,
+        "total": 0,
+        "ability": "car",
+        "ability_mod": 0,
+        "modifiers": {
+          "bonus": []
+        },
+        "proficiency": "none",
+        "name": "Carisma",
+        "short_name": "Car",
+        "slug": "car",
+        "ability_name": "Carisma",
+        "ability_short_name": "Car"
+      }
+    ],
+    "ability": {
+      "fue": {
+        "base": 15,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 15,
+        "mod": 2,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 13,
+        "name": "Fuerza",
+        "short_name": "Fue",
+        "slug": "fue",
+        "description": "Mide la potencia física y capacidades deportivas",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 4,
+          "ability": "fue",
+          "ability_mod": 2,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "proficient",
+          "name": "Fuerza",
+          "short_name": "Fue",
+          "slug": "fue",
+          "ability_name": "Fuerza",
+          "ability_short_name": "Fue"
+        }
+      },
+      "des": {
+        "base": 10,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 10,
+        "mod": 0,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 14,
+        "name": "Destreza",
+        "short_name": "Des",
+        "slug": "des",
+        "description": "Mide la agilidad y los reflejos",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 0,
+          "ability": "des",
+          "ability_mod": 0,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Destreza",
+          "short_name": "Des",
+          "slug": "des",
+          "ability_name": "Destreza",
+          "ability_short_name": "Des"
+        }
+      },
+      "con": {
+        "base": 15,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 2,
+        "total": 17,
+        "mod": 3,
+        "modifiers": {
+          "bonus": [
+            {
+              "name": "+2 Constitución",
+              "value": 2,
+              "modifier": "bonus",
+              "source": "Raza: Enano"
+            }
+          ],
+          "conditional_bonus": []
+        },
+        "id": 15,
+        "name": "Constitución",
+        "short_name": "Con",
+        "slug": "con",
+        "description": "Mide la resistencia y la salud",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 5,
+          "ability": "con",
+          "ability_mod": 3,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "proficient",
+          "name": "Constitución",
+          "short_name": "Con",
+          "slug": "con",
+          "ability_name": "Constitución",
+          "ability_short_name": "Con"
+        }
+      },
+      "int": {
+        "base": 8,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 8,
+        "mod": -1,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 16,
+        "name": "Inteligencia",
+        "short_name": "Int",
+        "slug": "int",
+        "description": "Mide el razonamiento y la memoria",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": -1,
+          "ability": "int",
+          "ability_mod": -1,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Inteligencia",
+          "short_name": "Int",
+          "slug": "int",
+          "ability_name": "Inteligencia",
+          "ability_short_name": "Int"
+        }
+      },
+      "sab": {
+        "base": 13,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 1,
+        "total": 14,
+        "mod": 2,
+        "modifiers": {
+          "bonus": [
+            {
+              "name": "+1 Sabiduría",
+              "value": 1,
+              "modifier": "bonus",
+              "source": "Subraza: Enano de las colinas"
+            }
+          ],
+          "conditional_bonus": []
+        },
+        "id": 17,
+        "name": "Sabiduría",
+        "short_name": "Sab",
+        "slug": "sab",
+        "description": "Mide la perspicacia e intuición.",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 2,
+          "ability": "sab",
+          "ability_mod": 2,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Sabiduría",
+          "short_name": "Sab",
+          "slug": "sab",
+          "ability_name": "Sabiduría",
+          "ability_short_name": "Sab"
+        }
+      },
+      "car": {
+        "base": 10,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 10,
+        "mod": 0,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 18,
+        "name": "Carisma",
+        "short_name": "Car",
+        "slug": "car",
+        "description": "Mide la fuerza de personalidad y la presencia",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 0,
+          "ability": "car",
+          "ability_mod": 0,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Carisma",
+          "short_name": "Car",
+          "slug": "car",
+          "ability_name": "Carisma",
+          "ability_short_name": "Car"
+        }
+      }
+    },
+    "abilities": [
+      {
+        "base": 15,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 15,
+        "mod": 2,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 13,
+        "name": "Fuerza",
+        "short_name": "Fue",
+        "slug": "fue",
+        "description": "Mide la potencia física y capacidades deportivas",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 4,
+          "ability": "fue",
+          "ability_mod": 2,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "proficient",
+          "name": "Fuerza",
+          "short_name": "Fue",
+          "slug": "fue",
+          "ability_name": "Fuerza",
+          "ability_short_name": "Fue"
+        }
+      },
+      {
+        "base": 10,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 10,
+        "mod": 0,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 14,
+        "name": "Destreza",
+        "short_name": "Des",
+        "slug": "des",
+        "description": "Mide la agilidad y los reflejos",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 0,
+          "ability": "des",
+          "ability_mod": 0,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Destreza",
+          "short_name": "Des",
+          "slug": "des",
+          "ability_name": "Destreza",
+          "ability_short_name": "Des"
+        }
+      },
+      {
+        "base": 15,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 2,
+        "total": 17,
+        "mod": 3,
+        "modifiers": {
+          "bonus": [
+            {
+              "name": "+2 Constitución",
+              "value": 2,
+              "modifier": "bonus",
+              "source": "Raza: Enano"
+            }
+          ],
+          "conditional_bonus": []
+        },
+        "id": 15,
+        "name": "Constitución",
+        "short_name": "Con",
+        "slug": "con",
+        "description": "Mide la resistencia y la salud",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 5,
+          "ability": "con",
+          "ability_mod": 3,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "proficient",
+          "name": "Constitución",
+          "short_name": "Con",
+          "slug": "con",
+          "ability_name": "Constitución",
+          "ability_short_name": "Con"
+        }
+      },
+      {
+        "base": 8,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 8,
+        "mod": -1,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 16,
+        "name": "Inteligencia",
+        "short_name": "Int",
+        "slug": "int",
+        "description": "Mide el razonamiento y la memoria",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": -1,
+          "ability": "int",
+          "ability_mod": -1,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Inteligencia",
+          "short_name": "Int",
+          "slug": "int",
+          "ability_name": "Inteligencia",
+          "ability_short_name": "Int"
+        }
+      },
+      {
+        "base": 13,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 1,
+        "total": 14,
+        "mod": 2,
+        "modifiers": {
+          "bonus": [
+            {
+              "name": "+1 Sabiduría",
+              "value": 1,
+              "modifier": "bonus",
+              "source": "Subraza: Enano de las colinas"
+            }
+          ],
+          "conditional_bonus": []
+        },
+        "id": 17,
+        "name": "Sabiduría",
+        "short_name": "Sab",
+        "slug": "sab",
+        "description": "Mide la perspicacia e intuición.",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 2,
+          "ability": "sab",
+          "ability_mod": 2,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Sabiduría",
+          "short_name": "Sab",
+          "slug": "sab",
+          "ability_name": "Sabiduría",
+          "ability_short_name": "Sab"
+        }
+      },
+      {
+        "base": 10,
+        "increments": 0,
+        "bg_increments": 0,
+        "bonus": 0,
+        "race_bonus": 0,
+        "total": 10,
+        "mod": 0,
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "id": 18,
+        "name": "Carisma",
+        "short_name": "Car",
+        "slug": "car",
+        "description": "Mide la fuerza de personalidad y la presencia",
+        "saving_throw": {
+          "base": 0,
+          "bonus": 0,
+          "total": 0,
+          "ability": "car",
+          "ability_mod": 0,
+          "modifiers": {
+            "bonus": []
+          },
+          "proficiency": "none",
+          "name": "Carisma",
+          "short_name": "Car",
+          "slug": "car",
+          "ability_name": "Carisma",
+          "ability_short_name": "Car"
+        }
+      }
+    ],
+    "skill": {
+      "acrobacias": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 88,
+        "slug": "acrobacias",
+        "name": "Acrobacias",
+        "description": "Tu prueba de Destreza (Acrobacias) abarca tu intento por mantenerte en pie en situaciones difíciles, como cuando estás intentado correr sobre una capa de hielo, mantener el equilibrio en una cuerda floja o mantenerte recto sobre la borda de un barco que se balancea",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      "arcanos": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 91,
+        "slug": "arcanos",
+        "name": "Arcanos",
+        "description": "Tu prueba de Inteligencia (Arcana) mide tu capacidad para recordar conocimiento sobre conjuros, objetos mágicos, símbolos sobrenaturales, tradiciones mágicas, los planos de existencia y los habitantes de dichos planos",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      "atletismo": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "fue",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 87,
+        "slug": "atletismo",
+        "name": "Atletismo",
+        "description": "Tu prueba de Fuerza (Atletismo) cubre situaciones difíciles mientras escalas, saltas o nadas",
+        "requires_training": false,
+        "ability_name": "Fuerza",
+        "ability_short_name": "Fue",
+        "armor_penalty": null
+      },
+      "enganar": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 101,
+        "slug": "enganar",
+        "name": "Engañar",
+        "description": "Una prueba de Carisma (Engañar) determina si puedes esconder la verdad de manera convincente, ya sea verbalmente o a través de las acciones. Este engaño puede abarcar cualquier cosa, desde liar a alguien siendo ambiguo hasta mentir. Situaciones típicas son camelarse a un guardia, estafar a un mercader, ganar dinero con las apuestas, disfrazarse para hacerse pasar por otro, engañar a alguien suspicaz con afirmaciones falsas o mantener el rosto impávido mientras mientes descaradamente.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      "historia": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 92,
+        "slug": "historia",
+        "name": "Historia",
+        "description": "Tu prueba de Inteligencia (Historia) mide tu capacidad para recordar eventos históricos, gente legendaria, reinos antiguos, disputas pasadas, guerras recientes y civilizaciones perdidas",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      "interpretacion": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 102,
+        "slug": "interpretacion",
+        "name": "Interpretación",
+        "description": "Una prueba de Carisma (Interpretación) determina si consigues deleitar a una audiencia con música, baile, actuación, cuentacuentos o alguna otra forma de entretenimiento.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      "intimidar": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 103,
+        "slug": "intimidar",
+        "name": "Intimidar",
+        "description": "Cuando intentas influenciar a alguien a través de una amenaza, acciones hostiles o violencia física, el director de juego puede pedirte hacer una prueba de Carisma (Intimidar). Algunos ejemplos son intentar sonsacar información a un prisionero, convencer a unos matones de que se echen atrás en una confrontación o usar una botella rota para convencer a un visir despreciable de que reconsidere una decisión.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      "investigacion": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 93,
+        "slug": "investigacion",
+        "name": "Investigación",
+        "description": "Cuando miras a tu alrededor en busca de pistas y haces deducciones basándote en dichas pistas, haces una prueba de Inteligencia (Investigación). Puedes deducir dónde se encuentra un objeto escondido, discernir qué tipo de arma infligió una herida dependiendo de su apariencia o determinar el punto débil de un túnel que podría provocar un colapso. Estudiar detenidamente pergaminos antiguos en busca de conocimiento oculto también puede requerir una prueba de Inteligencia",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      "juego_de_manos": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 89,
+        "slug": "juego_de_manos",
+        "name": "Juego de Manos",
+        "description": "Cuando hagas un acto de prestidigitación o un movimiento rápido con las manos, como pasarle algo a alguien u ocultar algo en tu cuerpo, haz una prueba de Destreza (Juego de Manos)",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      "medicina": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 96,
+        "slug": "medicina",
+        "name": "Medicina",
+        "description": "Una prueba de Sabiduría (Medicina) te permite intentar estabilizar a un compañero moribundo o diagnosticar una enfermedad.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      "naturaleza": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 94,
+        "slug": "naturaleza",
+        "name": "Naturaleza",
+        "description": "Una prueba de Inteligencia (Naturaleza) mide tu capacidad para recordar conocimiento sobre terrenos, plantas, animales, el clima y los ciclos naturales.",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      "percepcion": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 97,
+        "slug": "percepcion",
+        "name": "Percepción",
+        "description": "Una prueba de Sabiduría (Percepción) te permite ver, oír o detectar de otro modo la presencia de algo. Mide tu percepción general sobre lo que te rodea y la agudeza de tus sentidos.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      "perspicacia": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 4,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 98,
+        "slug": "perspicacia",
+        "name": "Perspicacia",
+        "description": "Una prueba de Sabiduría (Perspicacia) determina si puedes conocer las verdaderas intenciones de una criatura, como cuando sospechas que te están mintiendo o predices el siguiente movimiento de alguien. Esto implica analizar el lenguaje corporal, la forma de hablar y los cambios en la gesticulación.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      "persuasion": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 2,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 104,
+        "slug": "persuasion",
+        "name": "Persuasión",
+        "description": "Cuando intentas influenciar a alguien o a un grupo de personas con tacto, cortesía o buen talante, el director de juego puede pedirte que hagas una prueba de Carisma (Persuasión). Normalmente usa persuasión cuando actúes de buena fe, para hacer amigos, hacer sugerencias cordiales o exhibir una etiqueta correcta. Ejemplos de persuadir a otros son convencer a un chambelán de que deje a tu grupo ver al rey, negociar la paz entre dos tribus en guerra o inspirar a una multitud de pueblerinos.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      "religion": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 95,
+        "slug": "religion",
+        "name": "Religión",
+        "description": "Una prueba de Inteligencia (Religión) mide tu capacidad para recordar conocimiento sobre deidades, ritos y oraciones, jerarquías religiosas, símbolos sagrados y las prácticas de cultos secretos.",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      "sigilo": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 90,
+        "slug": "sigilo",
+        "name": "Sigilo",
+        "description": "Haz una tirada de Destreza (Sigilo) cuando intentes ocultarte de tus enemigos, escabullirte de unos guardias, escaquearte sin que te perciban o acercarte sigilosamente a alguien sin que te vean ni oigan",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      "supervivencia": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 99,
+        "slug": "supervivencia",
+        "name": "Supervivencia",
+        "description": "El director de juego puede pedirte hacer una prueba de Sabiduría (Supervivencia) para seguir huellas, cazar, guiar a tu grupo por un yermo helado, identificar signos de osos lechuza que viven cerca, predecir el clima o evitar arenas movedizas u otros peligros naturales.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      "trato_con_animales": {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 4,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 100,
+        "slug": "trato_con_animales",
+        "name": "Trato con Animales",
+        "description": "Cuando hay cualquier duda sobre si puedes calmar a un animal doméstico, evitar que una montura se asuste o intuir las intenciones de un animal, el director de juego puede pedir una prueba de Sabiduría (Trato con Animales). También puedes hacerla para controlar a tu montura cuando haces una maniobra arriesgada.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      }
+    },
+    "skills": [
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 88,
+        "slug": "acrobacias",
+        "name": "Acrobacias",
+        "description": "Tu prueba de Destreza (Acrobacias) abarca tu intento por mantenerte en pie en situaciones difíciles, como cuando estás intentado correr sobre una capa de hielo, mantener el equilibrio en una cuerda floja o mantenerte recto sobre la borda de un barco que se balancea",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 91,
+        "slug": "arcanos",
+        "name": "Arcanos",
+        "description": "Tu prueba de Inteligencia (Arcana) mide tu capacidad para recordar conocimiento sobre conjuros, objetos mágicos, símbolos sobrenaturales, tradiciones mágicas, los planos de existencia y los habitantes de dichos planos",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "fue",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 87,
+        "slug": "atletismo",
+        "name": "Atletismo",
+        "description": "Tu prueba de Fuerza (Atletismo) cubre situaciones difíciles mientras escalas, saltas o nadas",
+        "requires_training": false,
+        "ability_name": "Fuerza",
+        "ability_short_name": "Fue",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 101,
+        "slug": "enganar",
+        "name": "Engañar",
+        "description": "Una prueba de Carisma (Engañar) determina si puedes esconder la verdad de manera convincente, ya sea verbalmente o a través de las acciones. Este engaño puede abarcar cualquier cosa, desde liar a alguien siendo ambiguo hasta mentir. Situaciones típicas son camelarse a un guardia, estafar a un mercader, ganar dinero con las apuestas, disfrazarse para hacerse pasar por otro, engañar a alguien suspicaz con afirmaciones falsas o mantener el rosto impávido mientras mientes descaradamente.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 92,
+        "slug": "historia",
+        "name": "Historia",
+        "description": "Tu prueba de Inteligencia (Historia) mide tu capacidad para recordar eventos históricos, gente legendaria, reinos antiguos, disputas pasadas, guerras recientes y civilizaciones perdidas",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 102,
+        "slug": "interpretacion",
+        "name": "Interpretación",
+        "description": "Una prueba de Carisma (Interpretación) determina si consigues deleitar a una audiencia con música, baile, actuación, cuentacuentos o alguna otra forma de entretenimiento.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 103,
+        "slug": "intimidar",
+        "name": "Intimidar",
+        "description": "Cuando intentas influenciar a alguien a través de una amenaza, acciones hostiles o violencia física, el director de juego puede pedirte hacer una prueba de Carisma (Intimidar). Algunos ejemplos son intentar sonsacar información a un prisionero, convencer a unos matones de que se echen atrás en una confrontación o usar una botella rota para convencer a un visir despreciable de que reconsidere una decisión.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 93,
+        "slug": "investigacion",
+        "name": "Investigación",
+        "description": "Cuando miras a tu alrededor en busca de pistas y haces deducciones basándote en dichas pistas, haces una prueba de Inteligencia (Investigación). Puedes deducir dónde se encuentra un objeto escondido, discernir qué tipo de arma infligió una herida dependiendo de su apariencia o determinar el punto débil de un túnel que podría provocar un colapso. Estudiar detenidamente pergaminos antiguos en busca de conocimiento oculto también puede requerir una prueba de Inteligencia",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 89,
+        "slug": "juego_de_manos",
+        "name": "Juego de Manos",
+        "description": "Cuando hagas un acto de prestidigitación o un movimiento rápido con las manos, como pasarle algo a alguien u ocultar algo en tu cuerpo, haz una prueba de Destreza (Juego de Manos)",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 96,
+        "slug": "medicina",
+        "name": "Medicina",
+        "description": "Una prueba de Sabiduría (Medicina) te permite intentar estabilizar a un compañero moribundo o diagnosticar una enfermedad.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 94,
+        "slug": "naturaleza",
+        "name": "Naturaleza",
+        "description": "Una prueba de Inteligencia (Naturaleza) mide tu capacidad para recordar conocimiento sobre terrenos, plantas, animales, el clima y los ciclos naturales.",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 97,
+        "slug": "percepcion",
+        "name": "Percepción",
+        "description": "Una prueba de Sabiduría (Percepción) te permite ver, oír o detectar de otro modo la presencia de algo. Mide tu percepción general sobre lo que te rodea y la agudeza de tus sentidos.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 4,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 98,
+        "slug": "perspicacia",
+        "name": "Perspicacia",
+        "description": "Una prueba de Sabiduría (Perspicacia) determina si puedes conocer las verdaderas intenciones de una criatura, como cuando sospechas que te están mintiendo o predices el siguiente movimiento de alguien. Esto implica analizar el lenguaje corporal, la forma de hablar y los cambios en la gesticulación.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "car",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 2,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 104,
+        "slug": "persuasion",
+        "name": "Persuasión",
+        "description": "Cuando intentas influenciar a alguien o a un grupo de personas con tacto, cortesía o buen talante, el director de juego puede pedirte que hagas una prueba de Carisma (Persuasión). Normalmente usa persuasión cuando actúes de buena fe, para hacer amigos, hacer sugerencias cordiales o exhibir una etiqueta correcta. Ejemplos de persuadir a otros son convencer a un chambelán de que deje a tu grupo ver al rey, negociar la paz entre dos tribus en guerra o inspirar a una multitud de pueblerinos.",
+        "requires_training": false,
+        "ability_name": "Carisma",
+        "ability_short_name": "Car",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "int",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": -1,
+        "total": -1,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 95,
+        "slug": "religion",
+        "name": "Religión",
+        "description": "Una prueba de Inteligencia (Religión) mide tu capacidad para recordar conocimiento sobre deidades, ritos y oraciones, jerarquías religiosas, símbolos sagrados y las prácticas de cultos secretos.",
+        "requires_training": false,
+        "ability_name": "Inteligencia",
+        "ability_short_name": "Int",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "des",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 0,
+        "total": 0,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 90,
+        "slug": "sigilo",
+        "name": "Sigilo",
+        "description": "Haz una tirada de Destreza (Sigilo) cuando intentes ocultarte de tus enemigos, escabullirte de unos guardias, escaquearte sin que te perciban o acercarte sigilosamente a alguien sin que te vean ni oigan",
+        "requires_training": false,
+        "ability_name": "Destreza",
+        "ability_short_name": "Des",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 2,
+        "proficiency": "none",
+        "proficiency_bonus": 0,
+        "id": 99,
+        "slug": "supervivencia",
+        "name": "Supervivencia",
+        "description": "El director de juego puede pedirte hacer una prueba de Sabiduría (Supervivencia) para seguir huellas, cazar, guiar a tu grupo por un yermo helado, identificar signos de osos lechuza que viven cerca, predecir el clima o evitar arenas movedizas u otros peligros naturales.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      },
+      {
+        "ranks": 0,
+        "bonus": 0,
+        "ability": "sab",
+        "modifiers": {
+          "bonus": [],
+          "conditional_bonus": []
+        },
+        "ability_mod": 2,
+        "total": 4,
+        "proficiency": "proficient",
+        "proficiency_bonus": 2,
+        "id": 100,
+        "slug": "trato_con_animales",
+        "name": "Trato con Animales",
+        "description": "Cuando hay cualquier duda sobre si puedes calmar a un animal doméstico, evitar que una montura se asuste o intuir las intenciones de un animal, el director de juego puede pedir una prueba de Sabiduría (Trato con Animales). También puedes hacerla para controlar a tu montura cuando haces una maniobra arriesgada.",
+        "requires_training": false,
+        "ability_name": "Sabiduría",
+        "ability_short_name": "Sab",
+        "armor_penalty": null
+      }
+    ],
+    "unlocked_feats": [],
+    "feats": [],
+    "items": {
+      "armas": [
+        {
+          "name": "Oathbreaker (mazo de guerra)",
+          "description": "Oathbreaker es un antiguo martillo de guerra forjado por el clan Ironforge hace generaciones y heredado de padre a hijo. Harbek lo empuña desde la caída de Karak-Dur, donde su padre murió defendiendo las puertas de la fortaleza.",
+          "group": "Armas marciales",
+          "slot": "Una mano",
+          "equippable": true,
+          "location": "equipped",
+          "location_text": "Equipado",
+          "grants_attack": true,
+          "grants_armor": false,
+          "attack": {
+            "range": "5 pies",
+            "target": "Una criatura",
+            "to_hit": {
+              "ability_id": "13",
+              "bonus": "",
+              "multi_attack_penalty": null,
+              "value": 4
+            },
+            "damage": {
+              "value": "1d8 +4",
+              "dice": "1d8",
+              "ability_id": "13",
+              "ability_factor": "1",
+              "bonus": "+2",
+              "type": "Contundente"
+            }
+          },
+          "armor": {
+            "type": "armor",
+            "value": "",
+            "max_ability": "",
+            "penalty": ""
+          },
+          "icon_url": "https://nivel20.com/images/1332/medium-ef2b436a0ae96dbc5554b75fbbb1d49f5257fcc4.PNG?1637061982",
+          "tags": [
+            "Pesada"
+          ],
+          "proficient": true,
+          "proficiency": "proficient",
+          "fields": {
+            "versatil": "1d10",
+            "municion": "-"
+          }
+        }
+      ],
+      "armaduras": [
+        {
+          "name": "Stonewall (escudo)",
+          "description": "Stonewall protegió las puertas de Karak-Dur durante la última invasión orca. Aún conserva profundas marcas de hachas y fuego en su acero ennegrecido.",
+          "group": "Escudo",
+          "slot": "Una mano",
+          "equippable": true,
+          "location": "equipped",
+          "location_text": "Equipado",
+          "grants_attack": false,
+          "grants_armor": true,
+          "attack": {
+            "range": "",
+            "target": "",
+            "to_hit": {
+              "ability_id": "",
+              "bonus": "",
+              "multi_attack_penalty": null,
+              "value": 0
+            },
+            "damage": {
+              "value": null,
+              "dice": "",
+              "ability_id": "",
+              "ability_factor": "1",
+              "bonus": "",
+              "type": ""
+            }
+          },
+          "armor": {
+            "type": "shield",
+            "value": "2",
+            "max_ability": "",
+            "penalty": ""
+          },
+          "icon_url": "https://nivel20.com/images/770/medium-da71570c023ca25c20693a621e55cf9b638f406c.PNG?1637060112",
+          "tags": [],
+          "proficient": true,
+          "proficiency": "proficient",
+          "fields": {
+            "fuerza": "0"
+          }
+        },
+        {
+          "name": "Cota de malla",
+          "description": "Esta armadura está fabricada mediante anillos metálicos entrelazados, que se apoyan sobre un gambesón que impide que la piel se irrite y amortigua el impacto de los golpes. Esta cota incluye guanteletes.",
+          "group": "Armadura pesada",
+          "slot": "Armadura",
+          "equippable": true,
+          "location": "equipped",
+          "location_text": "Equipado",
+          "grants_attack": false,
+          "grants_armor": true,
+          "attack": {
+            "range": "",
+            "target": "",
+            "to_hit": {
+              "ability_id": "",
+              "bonus": "",
+              "multi_attack_penalty": null,
+              "value": 0
+            },
+            "damage": {
+              "value": null,
+              "dice": "",
+              "ability_id": "",
+              "ability_factor": "1",
+              "bonus": "",
+              "type": ""
+            }
+          },
+          "armor": {
+            "type": "armor",
+            "value": "16",
+            "max_ability": "0",
+            "penalty": "disadvantage"
+          },
+          "icon_url": "https://nivel20.com/images/591/medium-f943616338f18794750b8b81a505ea51d0145892.png?1637058159",
+          "tags": [
+            "Desventaja",
+            "Fuerza"
+          ],
+          "proficient": true,
+          "proficiency": "proficient",
+          "fields": {
+            "fuerza": "Fue 13"
+          }
+        },
+        {
+          "name": "Blackmantle (capa)",
+          "description": "Está hecha con gruesas pieles negras de lobo montañés, endurecidas por nieve, humo y décadas de campaña. El borde interior está reforzado con cuero oscuro y viejas costuras enanas, mientras que la espalda muestra el símbolo desgastado del clan Ironforge bordado con hilo gris ceniza.",
+          "group": "Armadura intermedia",
+          "slot": "Espalda",
+          "equippable": true,
+          "location": "equipped",
+          "location_text": "Equipado",
+          "grants_attack": false,
+          "grants_armor": true,
+          "attack": {
+            "range": "",
+            "target": "",
+            "to_hit": {
+              "ability_id": "",
+              "bonus": "",
+              "multi_attack_penalty": null,
+              "value": 0
+            },
+            "damage": {
+              "value": null,
+              "dice": "",
+              "ability_id": "",
+              "ability_factor": "1",
+              "bonus": "",
+              "type": ""
+            }
+          },
+          "armor": {
+            "type": "armor",
+            "value": "12",
+            "max_ability": "2",
+            "penalty": "none"
+          },
+          "icon_url": "https://nivel20.com/images/1928/medium-bbcca21cfbd30f8955720d69a1a59023e2606ad4.png?1637235389",
+          "tags": [],
+          "proficient": true,
+          "proficiency": "proficient",
+          "fields": {
+            "fuerza": null
+          }
+        }
+      ],
+      "equipo_de_aventuras": [
+        {
+          "name": "Paquete de explorador de mazmorras",
+          "description": "Incluye una mochila, una palanqueta, un martillo, 10 pitones, 10 antorchas, un yesquero, raciones para 10 días y una cantimplora. Además, este paquete también tiene una cuerda de cáñamo de 50 pies enganchada en uno de sus lados.",
+          "group": "Paquetes de equipo",
+          "slot": null,
+          "equippable": false,
+          "location": null,
+          "location_text": null,
+          "grants_attack": false,
+          "grants_armor": false,
+          "attack": {
+            "range": "",
+            "target": "",
+            "to_hit": {
+              "ability_id": "",
+              "bonus": "",
+              "multi_attack_penalty": null,
+              "value": 0
+            },
+            "damage": {
+              "value": null,
+              "dice": "",
+              "ability_id": "",
+              "ability_factor": "1",
+              "bonus": "",
+              "type": ""
+            }
+          },
+          "armor": {
+            "type": "armor",
+            "value": "",
+            "max_ability": "",
+            "penalty": ""
+          },
+          "icon_url": "https://nivel20.com/images/1912/medium-af9cf37e5492e63ce65c7e894016b016f0f736bb.png?1637235295",
+          "tags": [],
+          "proficient": false,
+          "proficiency": null,
+          "fields": {}
+        }
+      ]
+    },
+    "attacks": [
+      {
+        "name": "Oathbreaker (mazo de guerra)",
+        "description": "Oathbreaker es un antiguo martillo de guerra forjado por el clan Ironforge hace generaciones y heredado de padre a hijo. Harbek lo empuña desde la caída de Karak-Dur, donde su padre murió defendiendo las puertas de la fortaleza.",
+        "group": "Armas marciales",
+        "slot": "Una mano",
+        "equippable": true,
+        "location": "equipped",
+        "location_text": "Equipado",
+        "grants_attack": true,
+        "grants_armor": false,
+        "attack": {
+          "range": "5 pies",
+          "target": "Una criatura",
+          "to_hit": {
+            "ability_id": "13",
+            "bonus": "",
+            "multi_attack_penalty": null,
+            "value": 4
+          },
+          "damage": {
+            "value": "1d8 +4",
+            "dice": "1d8",
+            "ability_id": "13",
+            "ability_factor": "1",
+            "bonus": "+2",
+            "type": "Contundente"
+          }
+        },
+        "armor": {
+          "type": "armor",
+          "value": "",
+          "max_ability": "",
+          "penalty": ""
+        },
+        "icon_url": "https://nivel20.com/images/1332/medium-ef2b436a0ae96dbc5554b75fbbb1d49f5257fcc4.PNG?1637061982",
+        "tags": [
+          "Pesada"
+        ],
+        "proficient": true,
+        "proficiency": "proficient",
+        "fields": {
+          "versatil": "1d10",
+          "municion": "-"
+        }
+      }
+    ],
+    "protections": [
+      {
+        "name": "Stonewall (escudo)",
+        "description": "Stonewall protegió las puertas de Karak-Dur durante la última invasión orca. Aún conserva profundas marcas de hachas y fuego en su acero ennegrecido.",
+        "group": "Escudo",
+        "slot": "Una mano",
+        "equippable": true,
+        "location": "equipped",
+        "location_text": "Equipado",
+        "grants_attack": false,
+        "grants_armor": true,
+        "attack": {
+          "range": "",
+          "target": "",
+          "to_hit": {
+            "ability_id": "",
+            "bonus": "",
+            "multi_attack_penalty": null,
+            "value": 0
+          },
+          "damage": {
+            "value": null,
+            "dice": "",
+            "ability_id": "",
+            "ability_factor": "1",
+            "bonus": "",
+            "type": ""
+          }
+        },
+        "armor": {
+          "type": "shield",
+          "value": "2",
+          "max_ability": "",
+          "penalty": ""
+        },
+        "icon_url": "https://nivel20.com/images/770/medium-da71570c023ca25c20693a621e55cf9b638f406c.PNG?1637060112",
+        "tags": [],
+        "proficient": true,
+        "proficiency": "proficient",
+        "fields": {
+          "fuerza": "0"
+        }
+      },
+      {
+        "name": "Cota de malla",
+        "description": "Esta armadura está fabricada mediante anillos metálicos entrelazados, que se apoyan sobre un gambesón que impide que la piel se irrite y amortigua el impacto de los golpes. Esta cota incluye guanteletes.",
+        "group": "Armadura pesada",
+        "slot": "Armadura",
+        "equippable": true,
+        "location": "equipped",
+        "location_text": "Equipado",
+        "grants_attack": false,
+        "grants_armor": true,
+        "attack": {
+          "range": "",
+          "target": "",
+          "to_hit": {
+            "ability_id": "",
+            "bonus": "",
+            "multi_attack_penalty": null,
+            "value": 0
+          },
+          "damage": {
+            "value": null,
+            "dice": "",
+            "ability_id": "",
+            "ability_factor": "1",
+            "bonus": "",
+            "type": ""
+          }
+        },
+        "armor": {
+          "type": "armor",
+          "value": "16",
+          "max_ability": "0",
+          "penalty": "disadvantage"
+        },
+        "icon_url": "https://nivel20.com/images/591/medium-f943616338f18794750b8b81a505ea51d0145892.png?1637058159",
+        "tags": [
+          "Desventaja",
+          "Fuerza"
+        ],
+        "proficient": true,
+        "proficiency": "proficient",
+        "fields": {
+          "fuerza": "Fue 13"
+        }
+      },
+      {
+        "name": "Blackmantle (capa)",
+        "description": "Está hecha con gruesas pieles negras de lobo montañés, endurecidas por nieve, humo y décadas de campaña. El borde interior está reforzado con cuero oscuro y viejas costuras enanas, mientras que la espalda muestra el símbolo desgastado del clan Ironforge bordado con hilo gris ceniza.",
+        "group": "Armadura intermedia",
+        "slot": "Espalda",
+        "equippable": true,
+        "location": "equipped",
+        "location_text": "Equipado",
+        "grants_attack": false,
+        "grants_armor": true,
+        "attack": {
+          "range": "",
+          "target": "",
+          "to_hit": {
+            "ability_id": "",
+            "bonus": "",
+            "multi_attack_penalty": null,
+            "value": 0
+          },
+          "damage": {
+            "value": null,
+            "dice": "",
+            "ability_id": "",
+            "ability_factor": "1",
+            "bonus": "",
+            "type": ""
+          }
+        },
+        "armor": {
+          "type": "armor",
+          "value": "12",
+          "max_ability": "2",
+          "penalty": "none"
+        },
+        "icon_url": "https://nivel20.com/images/1928/medium-bbcca21cfbd30f8955720d69a1a59023e2606ad4.png?1637235389",
+        "tags": [],
+        "proficient": true,
+        "proficiency": "proficient",
+        "fields": {
+          "fuerza": null
+        }
+      }
+    ],
+    "equipment": "* Oathbreaker, antiguo martillo de guerra heredado de su padre y usado en la defensa de Karak-Dur.\r\n* Stonewall, escudo ennegrecido cubierto de marcas de antiguas batallas.\r\n* Blackmantle, capa negra de piel endurecida por nieve, humo y campañas militares.\r\n* Cota de malla pesada reforzada y reparada múltiples veces por el propio Harbek.\r\n* Cinturón ancho de cuero con hebilla de hierro grabada con el símbolo del clan Ironforge.\r\n* Botas de montaña con refuerzos metálicos desgastados por décadas de marcha.\r\n* Guantes ennegrecidos por la forja y el combate.\r\n* Herramientas de herrero usadas durante décadas en las forjas del clan.\r\n* Bolsa lateral con clavos, remaches, piezas metálicas útiles y un pequeño kit de mantenimiento para Oathbreaker.\r\n* Un fragmento de acero de la antigua forja de Karak-Dur conservado en una bolsa de cuero.\r\n* Un anillo de hierro con el sello del clan Ironforge.\r\n* Una cadena con el símbolo ancestral del clan.\r\n* Un diario militar con nombres de compañeros caídos durante antiguas campañas.\r\n* Una vieja moneda de Karak-Dur guardada como recuerdo de su hogar.\r\n* Una petaca de acero llena de cerveza negra enana.\r\n* Una pipa corta de hierro ennegrecido.\r\n* Un juego de dados de piedra tallada usado durante largas guardias y viajes.\r\n* Una vieja capa de viaje marcada por quemaduras, nieve y humo de guerra.\r\n* Mochila reforzada con provisiones y equipo de exploración.\r\n* Cantimplora metálica y raciones secas de viaje.\r\n* Farol enano de viaje para túneles, minas y fortalezas subterráneas.\r\n* Pequeños anillos metálicos en la barba, grabados con nombres de familiares y camaradas caídos.",
+    "fields": {
+      "alineamiento": "Legal bueno",
+      "apariencia": "Enano robusto de hombros anchos, con barba gris oscura trenzada con anillos de hierro y múltiples cicatrices de guerra y forja. Viste armadura pesada desgastada y carga un martillo de guerra y un escudo marcados con el símbolo del clan Ironforge.",
+      "edad": "138",
+      "historia": "Harbek Ironforge nació hace ciento treinta y ocho años en la fortaleza enana de Karak-Dur, una inmensa ciudad excavada bajo las Montañas Grises donde el eco de los martillos resonaba día y noche entre túneles de piedra y salones iluminados por fuego de forja. Pertenecía a una antigua línea de herreros y defensores del clan Ironforge, un linaje conocido tanto por la calidad de sus armas como por la obstinación de sus guerreros.\r\n\r\nDesde muy pequeño fue criado entre yunques, acero fundido y disciplina militar. Su padre, Brogar Ironforge, era un maestro herrero encargado de fabricar armas para los guardianes de las puertas exteriores de Karak-Dur, mientras que su madre supervisaba los almacenes y caravanas comerciales que atravesaban las montañas. Ambos le enseñaron que el trabajo mal hecho no solo era vergonzoso, sino peligroso. Una espada mal equilibrada podía matar a quien debía proteger. Una armadura débil podía condenar a un compañero. Y una mala decisión podía provocar la caída de una fortaleza entera.\r\n\r\nHarbek creció escuchando historias sobre antiguas guerras enanas, asedios interminables y héroes que defendieron túneles hasta su último aliento. Como muchos jóvenes del clan, comenzó limpiando herramientas y transportando carbón para las forjas, pero con el tiempo desarrolló una habilidad excepcional para trabajar el acero. Aprendió a reconocer imperfecciones en el metal con solo escuchar el sonido de un golpe sobre el yunque, y rápidamente ganó reputación entre los artesanos de Karak-Dur por su paciencia, precisión y resistencia.\r\n\r\nCon las décadas, Harbek se convirtió en un miembro respetado del gremio de herreros de la fortaleza. Fabricó hachas de batalla, escudos reforzados y armaduras pesadas para guerreros, caravanas y exploradores enanos. Muchos soldados confiaban más en una armadura salida de la forja de Harbek que en las bendiciones de un sacerdote. Sus creaciones no eran elegantes ni ornamentales; eran herramientas hechas para sobrevivir guerras.\r\n\r\nAun así, Harbek nunca se limitó únicamente a la vida de artesano.\r\n\r\nAunque pasaba la mayor parte de sus días en la forja, jamás permanecía demasiado tiempo lejos del combate. Todos los miembros del clan Ironforge aprendían a luchar desde jóvenes, y Harbek no era la excepción. Participó durante años en patrullas de montaña, escoltas de caravanas y defensas contra saqueadores que intentaban cruzar los pasos helados de las Montañas Grises.\r\n\r\nCon el tiempo heredó Oathbreaker, el viejo martillo de guerra de su padre. El arma había pertenecido a varias generaciones de Ironforge y mostraba décadas de desgaste, reparaciones y cicatrices de batalla. Para Harbek, aquel martillo representaba más que una simple arma: era la prueba de que el deber de proteger Karak-Dur pasaba de generación en generación.\r\n\r\nHace varias décadas llegó la guerra.\r\n\r\nUna enorme horda de orcos descendió desde el norte acompañada por gigantes de las montañas y criaturas salvajes capaces de derribar murallas de piedra. Las primeras aldeas enanas cayeron rápidamente, y pronto los invasores alcanzaron las puertas exteriores de Karak-Dur.\r\n\r\nDurante semanas, la fortaleza resistió bajo fuego, sangre y acero.\r\n\r\nHarbek luchó junto a los defensores del clan en túneles estrechos, murallas derrumbadas y salones cubiertos de humo. En varias ocasiones regresó directamente desde la forja al campo de batalla sin siquiera quitarse los guantes ennegrecidos por el carbón. Reparaba armaduras dañadas durante la noche y combatía durante el día. Muchos guerreros sobrevivieron gracias a las armas y corazas que él mismo reforzó mientras el asedio continuaba.\r\n\r\nPero la victoria tuvo un precio terrible.\r\n\r\nSu hermano menor murió defendiendo una puerta interior cuando un gigante atravesó las murallas del distrito oriental. Varios amigos cercanos y antiguos aprendices jamás salieron de los túneles colapsados durante los combates. Algunas de las viejas forjas del clan quedaron destruidas para siempre bajo fuego y piedra derrumbada.\r\n\r\nAunque Karak-Dur sobrevivió, Harbek salió de aquella guerra convertido en otro enano.\r\n\r\nCon los años se volvió más reservado, severo y desconfiado. Ya no veía el mundo exterior como un lugar distante y sin importancia; entendió que las amenazas contra los reinos enanos crecían lentamente mientras muchos preferían ignorarlas. Empezó a notar señales inquietantes que otros consideraban coincidencias:\r\n- caravanas desaparecidas sin dejar rastro,\r\n- armas desconocidas llegando a manos enemigas,\r\n- mercenarios trabajando para fuerzas extrañas,\r\n- fortalezas enanas antiguas saqueadas,\r\n- y rumores sobre criaturas moviéndose bajo las montañas.\r\n\r\nHarbek estaba convencido de que algo se estaba preparando en las sombras.\r\n\r\nMuchos líderes del clan creían que Karak-Dur era demasiado fuerte para caer. Harbek no compartía esa confianza. Había visto murallas romperse, túneles inundados de sangre y guerreros morir defendiendo puertas que creían imposibles de atravesar.\r\n\r\nFinalmente tomó una decisión difícil: abandonar temporalmente la fortaleza.\r\n\r\nDejó atrás las forjas, el gremio y parte de su vida para recorrer el mundo como aventurero. No busca riqueza ni gloria. Tampoco desea convertirse en héroe de canciones de taberna. Viaja porque cree que otra guerra se aproxima y quiere descubrir quién mueve las piezas antes de que más fortalezas enanas desaparezcan.\r\n\r\nAhora recorre caminos lejanos llevando consigo:\r\n- Oathbreaker, el martillo ancestral de su familia,\r\n- Stonewall, el escudo marcado por incontables batallas,\r\n- Blackmantle, la pesada capa negra endurecida por nieve, humo y años de campaña,\r\n- y un fragmento de acero proveniente de las antiguas forjas destruidas de Karak-Dur.\r\n\r\nHarbek habla poco y rara vez sonríe, pero quienes luchan junto a él descubren rápidamente que es un compañero inquebrantable. Nunca abandona a un aliado en combate. Siempre revisa sus armas antes de dormir. Y aunque la edad haya llenado su barba de gris y cubierto sus manos de cicatrices, su voluntad sigue siendo tan firme como el hierro que trabaja.\r\n\r\nPorque existe una promesa que aún guía cada uno de sus pasos:\r\n\r\n“Mientras yo siga en pie, las puertas no caerán.”",
+      "idiomas": "común, enano",
+      "notas": "* Puede identificar la calidad de un arma solo por el sonido del metal al golpearlo.\r\n* Detesta las armas mal equilibradas y suele corregir la postura de otros combatientes sin que se lo pidan.\r\n* Conserva pequeños trozos de metal de cada gran batalla en la que ha sobrevivido.\r\n* A veces se despierta durante la noche creyendo escuchar las alarmas de Karak-Dur.\r\n* Nunca entra a una ciudad nueva sin localizar primero la forja, las murallas y las posibles rutas de escape.\r\n* Tiene la costumbre de revisar bisagras, cerraduras y estructuras de piedra mientras conversa.\r\n* Desaprueba profundamente a quienes usan armas ornamentales pero poco funcionales.\r\n* Guarda silencio absoluto mientras trabaja el metal; considera la forja un acto casi sagrado.\r\n* Cree que toda fortaleza termina cayendo cuando sus defensores olvidan la disciplina.\r\n* Siente un respeto inmediato hacia artesanos talentosos, incluso si pertenecen a otras razas.\r\n* Mantiene registros mentales de deudas, favores y juramentos con una precisión casi obsesiva.\r\n* Le incomoda el lujo excesivo y prefiere objetos prácticos antes que elegantes.\r\n* Tiene cicatrices antiguas en la espalda causadas por fragmentos de piedra durante el asedio de Karak-Dur.\r\n* Siempre duerme cerca de una pared o esquina para evitar ser rodeado.\r\n* Cree que el acero revela la verdadera naturaleza de quien lo empuña.",
+      "puntos_de_experiencia": null,
+      "perception": {
+        "base": 0,
+        "base_source": null,
+        "modifiers": [],
+        "modifiers_bonus": 0,
+        "fixed_value": null,
+        "fixed_value_source": null,
+        "proficiency": null,
+        "proficiency_bonus": 0,
+        "total_value": 0,
+        "total": 0
+      },
+      "profession_save_dc": {
+        "base": 12,
+        "base_source": null,
+        "modifiers": [],
+        "modifiers_bonus": 0,
+        "fixed_value": null,
+        "fixed_value_source": null,
+        "proficiency": null,
+        "proficiency_bonus": 0,
+        "total_value": 12,
+        "total": 12
+      },
+      "spell_attack": {
+        "base": 0,
+        "base_source": null,
+        "modifiers": [],
+        "modifiers_bonus": 0,
+        "fixed_value": null,
+        "fixed_value_source": null,
+        "proficiency": null,
+        "proficiency_bonus": 0,
+        "total_value": 0,
+        "total": 0
+      },
+      "spell_save": {
+        "base": 0,
+        "base_source": null,
+        "modifiers": [],
+        "modifiers_bonus": 0,
+        "fixed_value": null,
+        "fixed_value_source": null,
+        "proficiency": null,
+        "proficiency_bonus": 0,
+        "total_value": 0,
+        "total": 0
+      }
+    },
+    "multiclass": {
+      "multi_caster": false,
+      "profession_count": 1,
+      "caster_count": 0,
+      "pact_caster_count": 0,
+      "caster_level": 0,
+      "spell_slots": []
+    },
+    "spell_modifiers": {
+      "labels": {
+        "spell_ids": {},
+        "spell_list_ids": {}
+      },
+      "available_spell": {
+        "spell_ids": [],
+        "spell_list_ids": []
+      },
+      "known_spell": {
+        "spell_ids": [],
+        "spell_list_ids": []
+      },
+      "prepared_spell": {
+        "spell_ids": [],
+        "spell_list_ids": []
+      }
+    },
+    "spell_books": [],
+    "professions": [
+      {
+        "id": 74,
+        "name": "Guerrero",
+        "description": "Todos los guerreros comparten un dominio magistral de las armas y armaduras, y un exhaustivo conocimiento de las habilidades del combate. Además, están muy relacionados con la muerte, tanto repartiéndola como mirándola fijamente, desafiantes.",
+        "archetype_id": null,
+        "archetype_name": null,
+        "archetype_description": null,
+        "level": 1,
+        "hit_points_dice": 10,
+        "feats": [
+          {
+            "id": 651,
+            "name": "Duelo",
+            "symbol": null,
+            "summary": "",
+            "description": "Cuando solo empuñas un arma cuerpo a cuerpo en una mano, ganas un bonificador de +2 a las tiradas de daño que hagas con ella.",
+            "mode": "simple",
+            "visible": true,
+            "profession_id": 74,
+            "category_id": 55,
+            "category_name": "Estilo de combate",
+            "group_name": "Estilo de combate",
+            "required_level": 1,
+            "modifiers": [],
+            "levels": []
+          },
+          {
+            "id": 643,
+            "name": "Tomar aliento",
+            "symbol": null,
+            "summary": "Durante tu turno, puedes usar una acción adicional para recuperar un número de puntos de golpe igual a 1d10 + tu nivel de guerrero. Una vez usas este rasgo, debes terminar un descanso corto o largo antes de poder usarlo otra vez.",
+            "description": "Dispones de una fuente ilimitada de vitalidad a la que puedes recurrir para protegerte del daño. Durante tu turno, puedes usar una acción adicional para recuperar un número de puntos de golpe igual a 1d10 + tu nivel de guerrero. Una vez usas este rasgo, debes terminar un descanso corto o largo antes de poder usarlo otra vez.",
+            "mode": "simple",
+            "visible": true,
+            "profession_id": 74,
+            "category_id": null,
+            "category_name": null,
+            "group_name": null,
+            "required_level": 1,
+            "modifiers": [],
+            "levels": []
+          }
+        ],
+        "portrait_url": "https://nivel20.com/images/562/medium-e65807de8885881677e976cb7ef7a0308e3e8d7e.jpg?1536946156"
+      }
+    ],
+    "race_feats": [
+      {
+        "id": 39,
+        "name": "Visión en la oscuridad",
+        "description": "Tienes una visión superior en la oscuridad y en la penumbra. Puedes ver en la penumbra a una distancia de 60 pies como si fuera luz brillante, y en la oscuridad como si fuera penumbra. En la oscuridad no puedes distinguir colores, solo tonos de gris."
+      },
+      {
+        "id": 40,
+        "name": "Fortaleza enana",
+        "description": "Tienes ventaja en las tiradas de salvación contra venenos y eres resistente al daño por veneno."
+      },
+      {
+        "id": 41,
+        "name": "Afinidad con la piedra",
+        "description": "Cuando realices una prueba de Inteligencia (Historia) relacionada con el origen de una obra de mampostería, se considera que tienes competencia con la habilidad de Historia y añades a la prueba tu bonificador por competencia multiplicado por 2 en lugar del bonificador habitual."
+      },
+      {
+        "id": 19624,
+        "name": "Velocidad enana",
+        "description": "Tu velocidad no se reduce por llevar armadura pesada."
+      }
+    ],
+    "other_feats": [],
+    "custom_feats": [
+      {
+        "name": "Resistencia enana de las colinas",
+        "description": "",
+        "summary": "+1 HP máximo por nivel",
+        "hidden": "0",
+        "visible": true,
+        "symbol": null,
+        "value": null
+      },
+      {
+        "name": "Entrenamiento de combate  enano",
+        "description": "",
+        "summary": "Competencia con hacha de guerra,   hacha de mano, martillo ligero y martillo de guerra",
+        "hidden": "0",
+        "visible": true,
+        "symbol": null,
+        "value": null
+      },
+      {
+        "name": "Competencia con herramientas",
+        "description": "",
+        "summary": "Permite elegir un set de artisan's tools (smith's / brewer's /  mason's)",
+        "hidden": "0",
+        "visible": true,
+        "symbol": null,
+        "value": null
+      }
+    ],
+    "background": {
+      "name": "Herrero Gremial de Karak-Dur",
+      "specialty_title": null,
+      "specialty": "Armeros, cerrajeros y orfebres\r\nHerreros y forjadores",
+      "feat_name": null,
+      "feat_description": "Como un miembro de un gremio establecido y respetado, tienes ciertos beneficios que te provee tu membresía. Tus compañeros de gremio te proveerán alojamiento y comida si la necesitas y pagarán por tu funeral si es necesario. En algunos pueblos y ciudades, un salón del gremio ofrece un lugar central para encontrarse con otros miembros de tu profesión, que puede ser un buen lugar para conocer potenciales patrones, aliados o empleados.\r\n\r\nLos gremios a menudo poseen gran peso político. Si eres acusado de un crimen, tu gremio te apoyará si es factible presentar una buena defensa o si tu crimen es justificable. También ganas acceso a poderosas figuras políticas a través del gremio, si tienes una buena posición dentro de él. Tales conexiones podrían requerir la donación de dinero u objetos mágicos a las arcas del gremio.\r\n\r\nDebes pagar 5 po por mes al gremio. Si te saltas tus pagas, debes pagar tus deudas para permanecer en labuena gracia del gremio",
+      "ideals": "* orgullo por el oficio,\r\n* disciplina,\r\n* honor enano,\r\n* y respeto por el trabajo bien hecho.",
+      "bonds": "* Oathbreaker, su martillo de guerra ancestral, perteneció a su padre, quien murió defendiendo las puertas de Karak-Dur durante una invasión orca.\r\n* Conserva un fragmento de acero de la antigua forja familiar destruida durante la guerra; algún día espera volver a encender sus fuegos.\r\n* El honor del clan Ironforge significa más para él que su propia vida.\r\n* Cree que las armas y armaduras que forjó para sus hermanos caídos aún deben servir para proteger a los inocentes.\r\n* Lleva un diario con los nombres de compañeros y aprendices muertos en combate para asegurarse de que nunca sean olvidados.\r\n* Harbek siente una deuda personal con Karak-Dur y juró regresar si la fortaleza vuelve a necesitar defensores.",
+      "flaws": "* Desconfía profundamente de los desconocidos y rara vez baja la guardia.\r\n* Puede volverse obsesivo con el trabajo bien hecho, incluso en situaciones poco importantes.\r\n* Guarda rencores durante años, especialmente contra quienes rompen juramentos o abandonan a sus compañeros.\r\n* Le cuesta aceptar nuevas ideas si contradicen las tradiciones del clan o las viejas técnicas de herrería.\r\n* Prefiere cargar solo con los problemas antes que pedir ayuda.\r\n* A veces trata a las personas con la misma dureza con la que juzga una espada mal forjada.\r\n* El recuerdo de Karak-Dur lo vuelve especialmente agresivo frente a orcos y gigantes.\r\n* Tiene dificultades para relajarse; siempre siente que debe estar vigilando algo o preparándose para la próxima amenaza.",
+      "traits": "* Cree que cualquier trabajo mal hecho es una falta de respeto hacia quien deberá usarlo.\r\n* Examina armas, armaduras y herramientas por pura costumbre profesional.\r\n* Habla poco, pero puede pasar horas discutiendo sobre acero, forjas y técnicas de herrería.\r\n* Desconfía de quienes buscan riqueza rápida en lugar de perfeccionar su oficio.\r\n* Siempre cumple un trato sellado con su palabra o con hierro.\r\n* Tiene la costumbre de reparar pequeños objetos incluso cuando nadie se lo pide.\r\n* Considera que una fortaleza, un arma y una persona se juzgan por cómo resisten bajo presión.\r\n* Respeta profundamente a quienes dominan un oficio con disciplina y paciencia."
+    },
+    "resources": {},
+    "proficiencies": {
+      "skills": {
+        "proficient": [
+          "Perspicacia",
+          "Persuasión",
+          "Trato con Animales"
+        ],
+        "expertise": []
+      },
+      "saving_throws": {
+        "proficient": [
+          "Constitución",
+          "Fuerza"
+        ],
+        "expertise": []
+      },
+      "items": {
+        "proficient": [
+          "Hacha de batalla",
+          "Hacha de mano",
+          "Herramientas de artesano",
+          "Martillo de guerra",
+          "Martillo ligero"
+        ],
+        "expertise": []
+      },
+      "item_groups": {
+        "proficient": [
+          "Armadura intermedia",
+          "Armadura ligera",
+          "Armadura pesada",
+          "Armas marciales",
+          "Armas sencillas",
+          "Escudo"
+        ],
+        "expertise": []
+      }
+    },
+    "actions": [
+      {
+        "id": "item-action-6056141",
+        "name": "Oathbreaker (mazo de guerra)",
+        "text": null,
+        "icon": "https://nivel20.com/images/1332/large-d461624c05ff07a381660239cd0461e3b4dfcd56.PNG?1637061982",
+        "description": "<p>Oathbreaker es un antiguo martillo de guerra forjado por el clan Ironforge hace generaciones y heredado de padre a hijo. Harbek lo empuña desde la caída de Karak-Dur, donde su padre murió defendiendo las puertas de la fortaleza.</p>\n",
+        "action_type": "folder",
+        "hidden": false,
+        "order": null,
+        "source_name": "Equipo",
+        "tooltip_title": "Oathbreaker (mazo de guerra)",
+        "owned": false,
+        "elements": [
+          {
+            "id": "item-6056141-advantage-attack",
+            "name": "Ataque con ventaja",
+            "text": null,
+            "icon": "/img/icons/attack-high.png",
+            "description": "<p>Realiza una tirada de ataque con ventaja utilizando tu Oathbreaker (mazo de guerra) para tratar de superar la defensa del enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Ataque con ventaja",
+            "owned": false,
+            "dice_roll": "MAX(1d20, 1d20)+4",
+            "dice_roll_formula": "MAX(1d20, 1d20)+4",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra)",
+              "roll_type": "attack"
+            }
+          },
+          {
+            "id": "item-6056141-attack",
+            "name": "Ataque",
+            "text": null,
+            "icon": "/img/icons/melee-hit.png",
+            "description": "<p>Realiza una tirada de ataque con tu Oathbreaker (mazo de guerra) para tratar de superar la defensa del enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Ataque",
+            "owned": false,
+            "dice_roll": "1d20+4",
+            "dice_roll_formula": "1d20+4",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra)",
+              "roll_type": "attack"
+            }
+          },
+          {
+            "id": "item-6056141-disadvantage-attack",
+            "name": "Ataque con desventaja",
+            "text": null,
+            "icon": "/img/icons/attack-low.png",
+            "description": "<p>Realiza una tirada de ataque con desventaja utilizando tu Oathbreaker (mazo de guerra) para tratar de superar la defensa del enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Ataque con desventaja",
+            "owned": false,
+            "dice_roll": "MIN(1d20, 1d20)+4",
+            "dice_roll_formula": "MIN(1d20, 1d20)+4",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra)",
+              "roll_type": "attack"
+            }
+          },
+          {
+            "id": null,
+            "name": "Daño",
+            "text": null,
+            "icon": "/img/icons/damage.png",
+            "description": "<p>Si has impactado con la tirada de ataque, realiza la tirada de daño para obtener los puntos de daño que le infliges al enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Daño",
+            "owned": false,
+            "dice_roll": "1d8 +4",
+            "dice_roll_formula": "1d8 +4",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra)",
+              "roll_type": "damage"
+            }
+          },
+          {
+            "id": null,
+            "name": "Crítico",
+            "text": null,
+            "icon": "/img/icons/critical.png",
+            "description": "<p>Si el impacto ha sido crítico, el ataque infligirá más daño. Realiza la tirada de daño crítico para obtener los puntos de daño que le infliges al enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Crítico",
+            "owned": false,
+            "dice_roll": "2d8 +4",
+            "dice_roll_formula": "2d8 +4",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra) (crítico)",
+              "roll_type": "damage"
+            }
+          },
+          {
+            "id": null,
+            "name": "Daño",
+            "text": null,
+            "icon": "/img/icons/damage.png",
+            "description": "<p>Si has impactado con la tirada de ataque, realiza la tirada de daño para obtener los puntos de daño que le infliges al enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Daño",
+            "owned": false,
+            "dice_roll": "1d10 +2",
+            "dice_roll_formula": "1d10 +2",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra)",
+              "roll_type": "damage"
+            }
+          },
+          {
+            "id": null,
+            "name": "Crítico",
+            "text": null,
+            "icon": "/img/icons/critical.png",
+            "description": "<p>Si el impacto ha sido crítico, el ataque infligirá más daño. Realiza la tirada de daño crítico para obtener los puntos de daño que le infliges al enemigo.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": "Oathbreaker (mazo de guerra)",
+            "tooltip_title": "Crítico",
+            "owned": false,
+            "dice_roll": "2d10 +2",
+            "dice_roll_formula": "2d10 +2",
+            "roll_options": {
+              "roll_name": "Oathbreaker (mazo de guerra) (crítico)",
+              "roll_type": "damage"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skill-checks",
+        "name": "Pruebas de habilidad",
+        "text": "PH",
+        "icon": "/img/icons/skills.png",
+        "description": "<p>Cuando tu Dungeon Master lo pida, puedes realizar Pruebas de Habilidad para ver si eres capaz de realizar ciertas acciones de manera heroica o si vas a fracasar cómica y estrepitosamente.</p>\n",
+        "action_type": "folder",
+        "hidden": false,
+        "order": 99,
+        "source_name": "Pruebas de habilidad",
+        "tooltip_title": "Pruebas de habilidad",
+        "owned": false,
+        "elements": [
+          {
+            "id": "skill-action-88",
+            "name": "Acrobacias",
+            "text": null,
+            "icon": "https://nivel20.com/images/78/medium-baf510b8d3f3b5263c7890a80b7e19333d8ec740.png?1637056622",
+            "description": "<p>Tu prueba de Destreza (Acrobacias) abarca tu intento por mantenerte en pie en situaciones difíciles, como cuando estás intentado correr sobre una capa de hielo, mantener el equilibrio en una cuerda floja o mantenerte recto sobre la borda de un barco que se balancea</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Acrobacias",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.acrobacias.total }}",
+            "roll_options": {
+              "roll_name": "Acrobacias",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-91",
+            "name": "Arcanos",
+            "text": null,
+            "icon": "https://nivel20.com/images/541/medium-ee62fb462cdd50677948c42dbc16a80ad7b9f834.png?1637057513",
+            "description": "<p>Tu prueba de Inteligencia (Arcana) mide tu capacidad para recordar conocimiento sobre conjuros, objetos mágicos, símbolos sobrenaturales, tradiciones mágicas, los planos de existencia y los habitantes de dichos planos</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Arcanos",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ skills.arcanos.total }}",
+            "roll_options": {
+              "roll_name": "Arcanos",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-87",
+            "name": "Atletismo",
+            "text": null,
+            "icon": "https://nivel20.com/images/69/medium-37ae6682c1a23d7b862e3147e36eab32b4f8c22d.png?1637056616",
+            "description": "<p>Tu prueba de Fuerza (Atletismo) cubre situaciones difíciles mientras escalas, saltas o nadas</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Atletismo",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ skills.atletismo.total }}",
+            "roll_options": {
+              "roll_name": "Atletismo",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-101",
+            "name": "Engañar",
+            "text": null,
+            "icon": "https://nivel20.com/images/71/medium-5bad512b029ee7b7fdda1af6fce7154e6b8d992e.png?1637056618",
+            "description": "<p>Una prueba de Carisma (Engañar) determina si puedes esconder la verdad de manera convincente, ya sea verbalmente o a través de las acciones. Este engaño puede abarcar cualquier cosa, desde liar a alguien siendo ambiguo hasta mentir. Situaciones típicas son camelarse a un guardia, estafar a un mercader, ganar dinero con las apuestas, disfrazarse para hacerse pasar por otro, engañar a alguien suspicaz con afirmaciones falsas o mantener el rosto impávido mientras mientes descaradamente.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Engañar",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.enganar.total }}",
+            "roll_options": {
+              "roll_name": "Engañar",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-92",
+            "name": "Historia",
+            "text": null,
+            "icon": "https://nivel20.com/images/1066/medium-f95c5b05d701d58f8d7fa8ed391ab9aa832df163.png?1637060984",
+            "description": "<p>Tu prueba de Inteligencia (Historia) mide tu capacidad para recordar eventos históricos, gente legendaria, reinos antiguos, disputas pasadas, guerras recientes y civilizaciones perdidas</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Historia",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ skills.historia.total }}",
+            "roll_options": {
+              "roll_name": "Historia",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-102",
+            "name": "Interpretación",
+            "text": null,
+            "icon": "https://nivel20.com/images/545/medium-6fc3c83c387dbd95ef800337961e939034fbc5a1.png?1637057516",
+            "description": "<p>Una prueba de Carisma (Interpretación) determina si consigues deleitar a una audiencia con música, baile, actuación, cuentacuentos o alguna otra forma de entretenimiento.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Interpretación",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.interpretacion.total }}",
+            "roll_options": {
+              "roll_name": "Interpretación",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-103",
+            "name": "Intimidar",
+            "text": null,
+            "icon": "https://nivel20.com/images/951/medium-db1c795648636b6ae32de12c64348af220266045.PNG?1637060729",
+            "description": "<p>Cuando intentas influenciar a alguien a través de una amenaza, acciones hostiles o violencia física, el director de juego puede pedirte hacer una prueba de Carisma (Intimidar). Algunos ejemplos son intentar sonsacar información a un prisionero, convencer a unos matones de que se echen atrás en una confrontación o usar una botella rota para convencer a un visir despreciable de que reconsidere una decisión.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Intimidar",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.intimidar.total }}",
+            "roll_options": {
+              "roll_name": "Intimidar",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-93",
+            "name": "Investigación",
+            "text": null,
+            "icon": "https://nivel20.com/images/1054/medium-687cfb945ddd75572d004c57bdab5d453b6d2a45.png?1637060861",
+            "description": "<p>Cuando miras a tu alrededor en busca de pistas y haces deducciones basándote en dichas pistas, haces una prueba de Inteligencia (Investigación). Puedes deducir dónde se encuentra un objeto escondido, discernir qué tipo de arma infligió una herida dependiendo de su apariencia o determinar el punto débil de un túnel que podría provocar un colapso. Estudiar detenidamente pergaminos antiguos en busca de conocimiento oculto también puede requerir una prueba de Inteligencia</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Investigación",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ skills.investigacion.total }}",
+            "roll_options": {
+              "roll_name": "Investigación",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-89",
+            "name": "Juego de Manos",
+            "text": null,
+            "icon": "https://nivel20.com/images/912/medium-0f861f410affbfcaa3c3997402a62fd0ae579146.PNG?1637060658",
+            "description": "<p>Cuando hagas un acto de prestidigitación o un movimiento rápido con las manos, como pasarle algo a alguien u ocultar algo en tu cuerpo, haz una prueba de Destreza (Juego de Manos)</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Juego de Manos",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.juego_de_manos.total }}",
+            "roll_options": {
+              "roll_name": "Juego de Manos",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-96",
+            "name": "Medicina",
+            "text": null,
+            "icon": "https://nivel20.com/images/937/medium-9a88695cd3ddbd96ef47b8459b36def833cfc635.PNG?1637060699",
+            "description": "<p>Una prueba de Sabiduría (Medicina) te permite intentar estabilizar a un compañero moribundo o diagnosticar una enfermedad.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Medicina",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ skills.medicina.total }}",
+            "roll_options": {
+              "roll_name": "Medicina",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-94",
+            "name": "Naturaleza",
+            "text": null,
+            "icon": "https://nivel20.com/images/1064/medium-28d59f80b78097b09e0340d403f77bda27b20a66.png?1637060983",
+            "description": "<p>Una prueba de Inteligencia (Naturaleza) mide tu capacidad para recordar conocimiento sobre terrenos, plantas, animales, el clima y los ciclos naturales.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Naturaleza",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ skills.naturaleza.total }}",
+            "roll_options": {
+              "roll_name": "Naturaleza",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-97",
+            "name": "Percepción",
+            "text": null,
+            "icon": "https://nivel20.com/images/50/medium-a350643511f9afbe341cae069647e8a98dbea7ef.png?1637056605",
+            "description": "<p>Una prueba de Sabiduría (Percepción) te permite ver, oír o detectar de otro modo la presencia de algo. Mide tu percepción general sobre lo que te rodea y la agudeza de tus sentidos.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Percepción",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ skills.percepcion.total }}",
+            "roll_options": {
+              "roll_name": "Percepción",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-98",
+            "name": "Perspicacia",
+            "text": null,
+            "icon": "https://nivel20.com/images/1108/medium-53ecd68ac02fda8cb14aa8cf0c8268a5e74cd0bc.png?1637061009",
+            "description": "<p>Una prueba de Sabiduría (Perspicacia) determina si puedes conocer las verdaderas intenciones de una criatura, como cuando sospechas que te están mintiendo o predices el siguiente movimiento de alguien. Esto implica analizar el lenguaje corporal, la forma de hablar y los cambios en la gesticulación.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Perspicacia",
+            "owned": false,
+            "dice_roll": "1d20+4",
+            "dice_roll_formula": "1d20+{{ skills.perspicacia.total }}",
+            "roll_options": {
+              "roll_name": "Perspicacia",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-104",
+            "name": "Persuasión",
+            "text": null,
+            "icon": "https://nivel20.com/images/1065/medium-13173ac531b8a8613ca8b69cc5b21acc2ca31760.PNG?1637060984",
+            "description": "<p>Cuando intentas influenciar a alguien o a un grupo de personas con tacto, cortesía o buen talante, el director de juego puede pedirte que hagas una prueba de Carisma (Persuasión). Normalmente usa persuasión cuando actúes de buena fe, para hacer amigos, hacer sugerencias cordiales o exhibir una etiqueta correcta. Ejemplos de persuadir a otros son convencer a un chambelán de que deje a tu grupo ver al rey, negociar la paz entre dos tribus en guerra o inspirar a una multitud de pueblerinos.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Persuasión",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ skills.persuasion.total }}",
+            "roll_options": {
+              "roll_name": "Persuasión",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-95",
+            "name": "Religión",
+            "text": null,
+            "icon": "https://nivel20.com/images/1084/medium-a4c5c819fc88e40bb51ce740b04a87cf6e8a52e2.png?1637060994",
+            "description": "<p>Una prueba de Inteligencia (Religión) mide tu capacidad para recordar conocimiento sobre deidades, ritos y oraciones, jerarquías religiosas, símbolos sagrados y las prácticas de cultos secretos.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Religión",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ skills.religion.total }}",
+            "roll_options": {
+              "roll_name": "Religión",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-90",
+            "name": "Sigilo",
+            "text": null,
+            "icon": "https://nivel20.com/images/936/medium-ff6e1cc36ccf69618599d595a7f1d52d1eef5c32.PNG?1637060698",
+            "description": "<p>Haz una tirada de Destreza (Sigilo) cuando intentes ocultarte de tus enemigos, escabullirte de unos guardias, escaquearte sin que te perciban o acercarte sigilosamente a alguien sin que te vean ni oigan</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Sigilo",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ skills.sigilo.total }}",
+            "roll_options": {
+              "roll_name": "Sigilo",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-99",
+            "name": "Supervivencia",
+            "text": null,
+            "icon": "https://nivel20.com/images/44/medium-b8a67a7436416834a408999af81d38fdfc0df25f.png?1637056601",
+            "description": "<p>El director de juego puede pedirte hacer una prueba de Sabiduría (Supervivencia) para seguir huellas, cazar, guiar a tu grupo por un yermo helado, identificar signos de osos lechuza que viven cerca, predecir el clima o evitar arenas movedizas u otros peligros naturales.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Supervivencia",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ skills.supervivencia.total }}",
+            "roll_options": {
+              "roll_name": "Supervivencia",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "skill-action-100",
+            "name": "Trato con Animales",
+            "text": null,
+            "icon": "https://nivel20.com/images/1131/medium-3bcef5809ecbc7aed454c73f58ff4b5f85783f74.png?1637061058",
+            "description": "<p>Cuando hay cualquier duda sobre si puedes calmar a un animal doméstico, evitar que una montura se asuste o intuir las intenciones de un animal, el director de juego puede pedir una prueba de Sabiduría (Trato con Animales). También puedes hacerla para controlar a tu montura cuando haces una maniobra arriesgada.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Trato con Animales",
+            "owned": false,
+            "dice_roll": "1d20+4",
+            "dice_roll_formula": "1d20+{{ skills.trato_con_animales.total }}",
+            "roll_options": {
+              "roll_name": "Trato con Animales",
+              "roll_type": "check"
+            }
+          }
+        ]
+      },
+      {
+        "id": "saving-throws",
+        "name": "Tiradas de Salvación",
+        "text": "TS",
+        "icon": "/img/icons/saving_throws.png",
+        "description": "<p>Una tirada de salvación, o simplemente salvación, representa un intento de resistir o evitar un conjuro, trampa, veneno, enfermedad o amenaza similar. No sueles decidir hacer una tirada de salvación, sino que te ves forzado a ello porque tu personaje o monstruo se encuentra en peligro</p>\n",
+        "action_type": "folder",
+        "hidden": false,
+        "order": 100,
+        "source_name": "Tiradas de Salvación",
+        "tooltip_title": "Tiradas de Salvación",
+        "owned": false,
+        "elements": [
+          {
+            "id": "saving_throw-action-7",
+            "name": "Fuerza",
+            "text": "Fue",
+            "icon": "https://nivel20.com/images/530/medium-6e227eaedd83651df4b544b34d37ee715aca407e.png?1637057424",
+            "description": "<p>Tirada de Salvación de Fuerza. La Fuerza mide la potencia física y capacidades deportivas</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Fuerza",
+            "owned": false,
+            "dice_roll": "1d20+4",
+            "dice_roll_formula": "1d20+{{ saving_throws.fue.total }}",
+            "roll_options": {
+              "roll_name": "TS Fuerza",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "saving_throw-action-8",
+            "name": "Destreza",
+            "text": "Des",
+            "icon": "https://nivel20.com/images/52/medium-5176efe0950f785924b1471fc35561f3fb89330e.png?1637056606",
+            "description": "<p>Tirada de Salvación de Destreza. La Destreza mide la agilidad y los reflejos</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Destreza",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ saving_throws.des.total }}",
+            "roll_options": {
+              "roll_name": "TS Destreza",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "saving_throw-action-9",
+            "name": "Constitución",
+            "text": "Con",
+            "icon": "https://nivel20.com/images/132/medium-ade763c3165acf2e82194fbb79f056c62d28b9c0.png?1637056699",
+            "description": "<p>Tirada de Salvación de Constitución. La Constitución mide la resistencia y la salud</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Constitución",
+            "owned": false,
+            "dice_roll": "1d20+5",
+            "dice_roll_formula": "1d20+{{ saving_throws.con.total }}",
+            "roll_options": {
+              "roll_name": "TS Constitución",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "saving_throw-action-10",
+            "name": "Inteligencia",
+            "text": "Int",
+            "icon": "https://nivel20.com/images/472/medium-adfd5c4a5da74b52472debf36b89a2667fed46fc.png?1637057319",
+            "description": "<p>Tirada de Salvación de Inteligencia. La Inteligencia mide el razonamiento y la memoria</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Inteligencia",
+            "owned": false,
+            "dice_roll": "1d20-1",
+            "dice_roll_formula": "1d20+{{ saving_throws.int.total }}",
+            "roll_options": {
+              "roll_name": "TS Inteligencia",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "saving_throw-action-11",
+            "name": "Sabiduría",
+            "text": "Sab",
+            "icon": "https://nivel20.com/images/50/medium-a350643511f9afbe341cae069647e8a98dbea7ef.png?1637056605",
+            "description": "<p>Tirada de Salvación de Sabiduría. La Sabiduría mide la perspicacia e intuición.</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Sabiduría",
+            "owned": false,
+            "dice_roll": "1d20+2",
+            "dice_roll_formula": "1d20+{{ saving_throws.sab.total }}",
+            "roll_options": {
+              "roll_name": "TS Sabiduría",
+              "roll_type": "check"
+            }
+          },
+          {
+            "id": "saving_throw-action-12",
+            "name": "Carisma",
+            "text": "Car",
+            "icon": "https://nivel20.com/images/362/medium-36156b1ed2550cdb2da1de721a0bae08db41cb78.png?1637057144",
+            "description": "<p>Tirada de Salvación de Carisma. El Carisma mide la fuerza de personalidad y la presencia</p>\n",
+            "action_type": "dice_roll",
+            "hidden": false,
+            "order": null,
+            "source_name": null,
+            "tooltip_title": "Carisma",
+            "owned": false,
+            "dice_roll": "1d20+0",
+            "dice_roll_formula": "1d20+{{ saving_throws.car.total }}",
+            "roll_options": {
+              "roll_name": "TS Carisma",
+              "roll_type": "check"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

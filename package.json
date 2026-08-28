@@ -1,0 +1,37 @@
+{
+	"name": "dnd-character-dl",
+	"version": "0.1.0",
+	"description": "Download and normalize D&D characters (D&D Beyond, Nivel20) into a complete JSON. CLI + API.",
+	"type": "module",
+	"license": "MIT",
+	"author": "angel.cruz@wallbit.io",
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": {
+		".": "./src/index.mjs",
+		"./normalize": "./src/sources/dndbeyond/normalize.mjs"
+	},
+	"bin": {
+		"dnd-character-dl": "./bin/cli.mjs"
+	},
+	"files": [
+		"src",
+		"bin",
+		"README.md"
+	],
+	"scripts": {
+		"start": "node bin/cli.mjs",
+		"test": "node --test"
+	},
+	"keywords": [
+		"dnd",
+		"dndbeyond",
+		"nivel20",
+		"d&d",
+		"dungeons-and-dragons",
+		"character",
+		"ttrpg",
+		"5e"
+	]
+}
