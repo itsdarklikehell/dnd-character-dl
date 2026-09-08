@@ -19,29 +19,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
       - uses: actions/setup-node@v7
         with:
           node-version: 24
-      - run: npm test
+      # El paquete no tiene dependencias, asi que no hace falta instalar nada.
+      - run: pnpm test
 
   publish:
     needs: test
     runs-on: ubuntu-latest
     environment: release
-    permissions:
-      contents: read
-      # Necesario para el trusted publishing de npm via OIDC.
-      id-token: write
     steps:
       - uses: actions/checkout@v7
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
 
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           registry-url: https://registry.npmjs.org
-
-      # El trusted publishing exige npm 11.5.1 o superior.
-      - run: npm install -g npm@latest
 
       - name: Comprobar que la version del release coincide con package.json
         if: github.event_name == 'release'
@@ -53,6 +54,8 @@ jobs:
             exit 1
           fi
 
-      # Sin NODE_AUTH_TOKEN: la autenticacion sale del OIDC de Actions, y npm
-      # anade las atestaciones de procedencia por su cuenta.
-      - run: npm publish
+      # --no-git-checks: en el runner el checkout esta en un tag suelto, no en
+      # una rama sincronizada, y pnpm lo rechazaria.
+      - run: pnpm publish --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
