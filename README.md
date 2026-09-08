@@ -1,7 +1,7 @@
 # dnd-character-dl
 
 Download a D&D character and normalize it into a complete, usable JSON. No
-dependencies (Node.js 18+). Works as a **CLI** and as a **library**.
+dependencies (Node.js 24+). Works as a **CLI** and as a **library**.
 
 **Supported platforms:**
 
