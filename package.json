@@ -1,6 +1,6 @@
 {
 	"name": "dnd-character-dl",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Download and normalize D&D characters (D&D Beyond, Nivel20) into a complete JSON. CLI + API.",
 	"type": "module",
 	"license": "MIT",
