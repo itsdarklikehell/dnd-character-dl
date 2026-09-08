@@ -1,6 +1,6 @@
 {
-	"name": "dnd-character-dl",
-	"version": "0.1.2",
+	"name": "@abr4xas/dnd-character-dl",
+	"version": "0.1.3",
 	"description": "Download and normalize D&D characters (D&D Beyond, Nivel20) into a complete JSON. CLI + API.",
 	"type": "module",
 	"license": "MIT",
@@ -12,6 +12,9 @@
 	"homepage": "https://github.com/abr4xas/dnd-character-dl#readme",
 	"bugs": {
 		"url": "https://github.com/abr4xas/dnd-character-dl/issues"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
 	},
 	"engines": {
 		"node": ">=24"

@@ -30,3 +30,6 @@ npm-debug.log*
 
 # macOS
 .DS_Store
+
+# Contiene el token del registro; lo genera el workflow de publicación.
+.npmrc

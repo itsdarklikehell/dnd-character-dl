@@ -32,6 +32,10 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     environment: release
+    permissions:
+      contents: read
+      # Permite al GITHUB_TOKEN del run escribir en GitHub Packages.
+      packages: write
     steps:
       - uses: actions/checkout@v7
 
@@ -42,7 +46,6 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 24
-          registry-url: https://registry.npmjs.org
 
       - name: Comprobar que la version del release coincide con package.json
         if: github.event_name == 'release'
@@ -54,8 +57,18 @@ jobs:
             exit 1
           fi
 
+      # Se escribe el .npmrc a mano en vez de usar el registry-url de
+      # setup-node, porque ese genera un .npmrc de usuario que pnpm no siempre
+      # toma en cuenta. Este queda junto al package.json y pnpm si lo lee.
+      - name: Autenticar contra GitHub Packages
+        run: |
+          {
+            echo "@abr4xas:registry=https://npm.pkg.github.com"
+            echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}"
+          } > .npmrc
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # --no-git-checks: en el runner el checkout esta en un tag suelto, no en
       # una rama sincronizada, y pnpm lo rechazaria.
       - run: pnpm publish --no-git-checks
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
