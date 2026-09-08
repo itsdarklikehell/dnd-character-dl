@@ -4,7 +4,7 @@
 	"description": "Download and normalize D&D characters (D&D Beyond, Nivel20) into a complete JSON. CLI + API.",
 	"type": "module",
 	"license": "MIT",
-	"author": "angel.cruz@wallbit.io",
+	"author": "bullgram@gmail.com",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/abr4xas/dnd-character-dl.git"
