@@ -16,10 +16,21 @@ dependencies (Node.js 18+). Works as a **CLI** and as a **library**.
 
 ## Installation
 
+This package is published to **GitHub Packages**, not to the public npm registry.
+Point the `@abr4xas` scope at GitHub's registry once, in your project's `.npmrc`:
+
+```ini
+@abr4xas:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}
+```
+
+`GITHUB_TOKEN` must be a personal access token with the `read:packages` scope
+(GitHub requires authentication even for public packages). Then:
+
 ```bash
-npm install dnd-character-dl
+npm install @abr4xas/dnd-character-dl
 # or without installing, via npx:
-npx dnd-character-dl <id-or-url>
+npx @abr4xas/dnd-character-dl <id-or-url>
 ```
 
 ## CLI usage
@@ -45,7 +56,7 @@ It writes two files to `<out|cwd>/<platform>/<name>/`:
 ## Library usage
 
 ```js
-import { getCharacter, saveCharacter } from "dnd-character-dl";
+import { getCharacter, saveCharacter } from "@abr4xas/dnd-character-dl";
 
 // Download + normalize in one call (the platform is detected from the URL):
 const { raw, character, platform } = await getCharacter(
