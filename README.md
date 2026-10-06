@@ -1,9 +1,8 @@
 # dnd-character-dl
 
-Download a D&D character and normalize it into a complete, usable JSON. No
-dependencies (Node.js 24+). Works as a **CLI** and as a **library**.
+Download a D&D character and normalize it into a complete, usable JSON. No dependencies (Node.js 24+). Works as a **CLI** and as a **library**.
 
-**Supported platforms:**
+## Supported Platforms
 
 | Platform | Detection | Output folder |
 |---|---|---|
@@ -11,8 +10,7 @@ dependencies (Node.js 24+). Works as a **CLI** and as a **library**.
 | [Nivel20](https://nivel20.com) | a `nivel20.com` URL, or `--source nivel20` | `nivel20/<name>/` |
 
 > These use each platform's public JSON endpoints. The character must be public.
-> Each platform normalizes independently (see `docs/adr/0001`); the outputs converge
-> in shape naturally, since both are D&D 5e — no contract is imposed.
+> Each platform normalizes independently; the outputs converge in shape naturally, since both are D&D 5e.
 
 ## Installation
 
@@ -31,7 +29,7 @@ GitHub Packages requires authentication even for public packages. Then:
 pnpm add @abr4xas/dnd-character-dl
 ```
 
-## CLI usage
+## CLI Usage
 
 ```bash
 # D&D Beyond
@@ -51,7 +49,7 @@ It writes two files to `<out|cwd>/<platform>/<name>/`:
 - `raw.json` — the complete, untouched API response.
 - `character.json` — the normalized character (nothing is dropped).
 
-## Library usage
+## Library Usage
 
 ```js
 import { getCharacter, saveCharacter } from "@abr4xas/dnd-character-dl";
@@ -60,49 +58,40 @@ import { getCharacter, saveCharacter } from "@abr4xas/dnd-character-dl";
 const { raw, character, platform } = await getCharacter(
   "https://nivel20.com/games/dnd-5/characters/2087153.json"
 );
-console.log(platform, character.meta.name, character.combat.hitPoints.max);
 
-// Or force the platform for a bare id:
-const ddb = await getCharacter("166147623", { platform: "dndbeyond" });
-
-// Persist (grouped by platform: ./nivel20/<slug>/, ./dndbeyond/<slug>/):
-await saveCharacter({ raw, character, platform }, {});
+// Or save directly to disk:
+await saveCharacter("166147623", { out: "./characters" });
 ```
 
-### API
+## API
 
-| Function | Description |
-|---|---|
-| `getCharacter(idOrUrl, { platform?, fetch?, fetchedAt? })` | Resolves the platform, downloads + normalizes. Returns `{ raw, character, platform }`. |
-| `resolveSource(idOrUrl, { platform? })` | Returns the Source (`{ platform, matches, fetchRaw, normalize }`) for an input. |
-| `saveCharacter({ raw, character, platform }, { dir?, slug? })` | Writes both JSON files to `<dir \| cwd/platform>/<slug>/`. |
-| `normalizeCharacter(raw, { fetchedAt? })` | The **pure** D&D Beyond core. (Every Source has its own under `src/sources/<platform>/`.) |
-| `fetchRawCharacter(idOrUrl, { fetch? })` | Downloads only the D&D Beyond Raw payload. `fetch` is injectable. |
-| `SOURCES` | The list of registered Sources. |
+### `getCharacter(urlOrId, options?)`
 
-`normalizeCharacter` is pure and deterministic: it does no fetching, never touches the
-filesystem and never calls `new Date()` — `fetchedAt` is injected. It is the package's
-test surface.
+Downloads and normalizes a character.
 
-## What `character.json` contains
+**Parameters:**
+- `urlOrId` (string) - A full URL or a bare character ID
+- `options` (object, optional)
+  - `source` (string) - Force a platform: `"dndbeyond"` or `"nivel20"`
+  - `out` (string) - Output folder (default: cwd)
 
-It normalizes **everything** the API returns. Main sections: `meta`, `identity`,
-`physical`, `abilities` (with breakdown and saving throws), `proficiencyBonus`,
-`savingThrows`, `skills`, `passiveScores`, `combat` (HP, AC, initiative, speeds),
-`proficiencies`, `languages`, `senses`, `defenses`, `classes`, `race`, `background`,
-`feats`, `inventory`, `currencies`, `actions`, `spellcasting`, `traits`, `notes`,
-`modifiers` (flat list + index by type), `options`, `choices`, `campaign`, and more.
+**Returns:** `Promise<{ raw: object, character: object, platform: string }>`
 
-Each section also keeps the API's full `definition`, so no nested data is lost. If the
-API adds an unmapped key, it shows up under `_unmapped`.
+### `saveCharacter(urlOrId, options?)`
 
-> **Note:** `combat.armorClass` is an **estimate** (equipped armor, or 10 + DEX, plus
-> `armor-class` modifiers). It does not cover every special case; verify it against the
-> official sheet if you need exactness. The data to recompute it is kept intact in
-> `inventory` and `modifiers`.
+Downloads, normalizes, and saves to disk.
+
+**Parameters:** Same as `getCharacter`.
+
+**Returns:** `Promise<{ path: string, platform: string }>`
 
 ## Development
 
 ```bash
-node --test     # runs the suite (no network, uses fixtures)
+pnpm install
+pnpm test
 ```
+
+## License
+
+MIT
